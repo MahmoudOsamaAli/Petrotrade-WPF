@@ -14,25 +14,19 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for pQuery.xaml
+    /// Interaction logic for pInvoice.xaml
     /// </summary>
-    public partial class pQuery : Page
+    public partial class pInvoice : Page
     {
-        public pQuery()
+        public pInvoice()
         {
             InitializeComponent();
         }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            pMain page = new pMain();
+            pQuery page = new pQuery();
             App.ParentWindowRef.ParentFrame.Navigate(page);
         }
-         private void ShowInvoice(object sender, RoutedEventArgs e)
-        {
-            pInvoice page = new pInvoice();
-            App.ParentWindowRef.ParentFrame.Navigate(page);
-        }
-
-
     }
 }

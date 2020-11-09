@@ -26,9 +26,6 @@ namespace WpfApp1
         {
             pMain page = new pMain();
             App.ParentWindowRef.ParentFrame.Navigate(page);
-            //MainWindow window = new MainWindow();
-            //window.Show();
-            //this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -36,9 +33,6 @@ namespace WpfApp1
             MessageBox.Show("تم تسجيل الشكوى بنجاح", "بتروتريد", MessageBoxButton.OK, MessageBoxImage.Information);
             pMain page = new pMain();
             App.ParentWindowRef.ParentFrame.Navigate(page);
-            //MainWindow window = new MainWindow();
-            //window.Show();
-            //this.Close();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Users\Mai\Source\Repos\Petrotrade-WPF\WpfApp1\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
   <ItemGroup>
@@ -17,6 +17,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="pHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pInvoice.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="pLoginScreen.xaml.cs">
@@ -64,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="pHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pInvoice.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="pLoginScreen.xaml">

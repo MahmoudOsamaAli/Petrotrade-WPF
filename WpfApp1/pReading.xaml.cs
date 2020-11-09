@@ -21,7 +21,6 @@ namespace WpfApp1
         public pReading()
         {
             InitializeComponent();
-            ShowHideInfo(Visibility.Hidden);
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -30,60 +29,6 @@ namespace WpfApp1
             //MainWindow window = new MainWindow();
             //window.Show();
             //this.Close();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            ShowHideInfo(Visibility.Hidden);
-            if (txtGovernorate.Text == "" || !int.TryParse(txtGovernorate.Text, out _))
-            {
-                MessageBox.Show("كود المحافظة فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtRegion.Text == "" || !int.TryParse(txtRegion.Text, out _))
-            {
-                MessageBox.Show("كود المنطقة فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtDaily.Text == "" || !int.TryParse(txtDaily.Text, out _))
-            {
-                MessageBox.Show("كود اليومية فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtSector.Text == "" || !int.TryParse(txtSector.Text, out _))
-            {
-                MessageBox.Show("كود القطاع فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtBlok.Text == "" || !int.TryParse(txtBlok.Text, out _))
-            {
-                MessageBox.Show("كود البلوك فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtBuilding.Text == "" || !int.TryParse(txtBuilding.Text, out _))
-            {
-                MessageBox.Show("كود العمارة فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtApartmrnt.Text == "" || !int.TryParse(txtApartmrnt.Text, out _))
-            {
-                MessageBox.Show("كود الشقة فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            if (txtSubsequence.Text == "" || !int.TryParse(txtSubsequence.Text, out _))
-            {
-                MessageBox.Show("الكود الفرعي فارغ أو مكتوب بطريقة خاطئة!!!");
-                return;
-            }
-            ShowHideInfo(Visibility.Visible);
-        }
-        private void ShowHideInfo(Visibility flag)
-        {
-            lblPrevReadingLable.Visibility = flag;
-            lblPrevReading.Visibility = flag;
-            lblCurrentReadingLable.Visibility = flag;
-            txtCurrentReading.Visibility = flag;
-            btnRegisterReading.Visibility = flag;
         }
 
         private void btnRegisterReading_Click(object sender, RoutedEventArgs e)

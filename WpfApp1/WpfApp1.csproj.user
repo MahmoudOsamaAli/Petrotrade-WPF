@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="loginScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pComplaint.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pLoginScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pOnlinPayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pPayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pQuery.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pReading.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wComplaint.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wOnlinPayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wPayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wQuery.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wReading.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="loginScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pComplaint.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pLoginScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pOnlinPayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pPayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pQuery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pReading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wComplaint.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wOnlinPayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wPayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wQuery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wReading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

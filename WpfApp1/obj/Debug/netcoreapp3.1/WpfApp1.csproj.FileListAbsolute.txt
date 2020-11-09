@@ -1,0 +1,184 @@
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.baml
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.baml
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.baml
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.baml
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.g.cs
+C:\Users\Ahmad Salama\source\repos\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.baml
+G:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+G:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+G:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+G:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+G:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+G:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.baml
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.baml
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.baml
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.baml
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.baml
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+G:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+F:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+F:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+F:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+F:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+F:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+F:\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.baml
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.baml
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.baml
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.baml
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.baml
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+F:\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wMain.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wMain.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pMain.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pMain.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pComplaint.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pComplaint.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pReading.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pReading.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pOnlinPayment.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pPayment.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pQuery.g.cs
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pOnlinPayment.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pPayment.baml
+D:\work\Tamer\Petrotrade\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pQuery.baml
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pComplaint.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pMain.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pOnlinPayment.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pPayment.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pQuery.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pReading.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wMain.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pComplaint.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pMain.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pOnlinPayment.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pPayment.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pQuery.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pReading.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wComplaint.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wMain.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wOnlinPayment.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wPayment.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wQuery.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\wReading.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\loginScreen.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\loginScreen.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pLoginScreen.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pLoginScreen.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pHome.g.cs
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\pHome.baml
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+D:\Projects\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.baml
+D:\Projects\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CopyComplete

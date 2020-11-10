@@ -24,7 +24,7 @@ namespace WpfApp1
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            pQuery page = new pQuery();
+            pInvoice page = new pInvoice();
             App.ParentWindowRef.ParentFrame.Navigate(page);
             //wQuery window = new wQuery();
             //window.Show();

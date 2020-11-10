@@ -24,11 +24,11 @@
         <TextBox Name="txtApartmrnt" HorizontalAlignment="Left" Margin="122,130,0,0" Text="" ToolTip="شقة" TextWrapping="Wrap" VerticalAlignment="Top" Width="46"/>
         <Label Content="فرعي" HorizontalAlignment="Right" Margin="0,99,686,0" VerticalAlignment="Top"/>
         <TextBox Name="txtSubsequence" HorizontalAlignment="Left" Margin="71,130,0,0" Text="" ToolTip="فرعي" TextWrapping="Wrap" VerticalAlignment="Top" Width="46"/>
-        <Button Content="عودة" HorizontalAlignment="Left" Height="75" Margin="617,319,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click"/>
+        <Button Content="عودة" HorizontalAlignment="Left" Height="75" Background="#FF014316" Margin="617,319,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click"/>
         <Label Name="lblReadingLable" Content="القراءة السابقة:" HorizontalAlignment="Left" Margin="71,217,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
         <Label Name="lblReading" Content="5588996633" HorizontalAlignment="Left" Margin="149,217,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
         <Label Content="الشكوى (1000حرف):" HorizontalAlignment="Left" Margin="77,163,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Margin="71,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="408" Height="86"/>
-        <Button Content="تسجيل الشكوى" HorizontalAlignment="Left" Margin="71,285,0,0" VerticalAlignment="Top" Width="410" Click="Button_Click_1"/>
+        <Button Content="تسجيل الشكوى" HorizontalAlignment="Left" Background="#FF014316" Margin="71,285,0,0" VerticalAlignment="Top" Width="410" Click="Button_Click_1"/>
     </Grid>
 </Window>

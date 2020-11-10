@@ -105,7 +105,7 @@
                 </Grid>
             </materialDesign:Card>
 
-            <Button  Margin="20,20,20,20"  Content="طباعة" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300" Grid.Column="3" Grid.Row="4"/>
+            <Button  Margin="20,20,20,20"  Content="دفع الفاتوره" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300" Grid.Column="3" Grid.Row="4"/>
 
         </Grid>
 

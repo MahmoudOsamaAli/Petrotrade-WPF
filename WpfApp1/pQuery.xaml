@@ -64,14 +64,14 @@
                                     <Paragraph>يناير</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>100.52 LE</Paragraph>
+                                    <Paragraph FontFamily="Arial">100.52 LE</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>مدفوع</Paragraph>
+                                    <Paragraph>لم يسدد</Paragraph>
                                 </TableCell>
                                 <TableCell>
                                     <Paragraph>
-                                        <Button Content="عرض" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
+                                        <Button Content="عرض" HorizontalAlignment="Right" Margin="0,0,0,0" Background="#FF014316" VerticalAlignment="Top" Click="ShowInvoice"/>
                                     </Paragraph>
                                 </TableCell>
                             </TableRow>
@@ -81,14 +81,14 @@
                                     <Paragraph>فبراير</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>100.52 LE</Paragraph>
+                                    <Paragraph FontFamily="Arial">100.52 LE</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>مدفوع</Paragraph>
+                                    <Paragraph>لم يسدد</Paragraph>
                                 </TableCell>
                                 <TableCell>
                                     <Paragraph>
-                                        <Button Content="عرض" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
+                                        <Button Content="عرض" HorizontalAlignment="Right"  Background="#FF014316" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
                                     </Paragraph>
                                 </TableCell>
                             </TableRow>
@@ -98,14 +98,14 @@
                                     <Paragraph>مارس</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>100.52 LE</Paragraph>
+                                    <Paragraph FontFamily="Arial">100.52 LE</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>مدفوع</Paragraph>
+                                    <Paragraph>لم يسدد</Paragraph>
                                 </TableCell>
                                 <TableCell>
                                     <Paragraph>
-                                        <Button Content="عرض" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
+                                        <Button Content="عرض" HorizontalAlignment="Right"  Background="#FF014316" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
                                     </Paragraph>
                                 </TableCell>
                             </TableRow>
@@ -115,14 +115,14 @@
                                     <Paragraph>ابريل</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>100.52 LE</Paragraph>
+                                    <Paragraph FontFamily="Arial" >100.52 LE</Paragraph>
                                 </TableCell>
                                 <TableCell>
-                                    <Paragraph>مدفوع</Paragraph>
+                                    <Paragraph>لم يسدد</Paragraph>
                                 </TableCell>
                                 <TableCell>
                                     <Paragraph>
-                                        <Button Content="عرض" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
+                                        <Button Content="عرض" HorizontalAlignment="Right" Background="#FF014316" Margin="0,0,0,0" VerticalAlignment="Top" Click="ShowInvoice"/>
                                     </Paragraph>
                                 </TableCell>
                             </TableRow>
@@ -133,7 +133,7 @@
             </FlowDocument>
         </FlowDocumentScrollViewer>
 
-            <Button Content="عودة" HorizontalAlignment="Right" Height="75" Margin="0,0,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6"/>
+            <Button Content="عودة" HorizontalAlignment="Right" Height="75" Background="#FF014316" Margin="0,0,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6"/>
 
         </Grid>
       

@@ -17,12 +17,12 @@
         </Grid.Background>
         <StackPanel Margin="50">
             <Image HorizontalAlignment="Center" Height="100"  VerticalAlignment="Top" Width="100"
-               Source="/logo (1).png" Stretch="Uniform" 
+               Source="/images/logo.png" Stretch="Uniform" 
                />
             <TextBlock Text="شركة الخدمات التجارية البترولية" Margin="0,20,0,0" FontStyle="Italic" HorizontalAlignment="Center" FontFamily="Cooper Black" FontSize="24" FontWeight="Bold" />
 
             <TextBlock Text="ادخل رقم الاشتراك" Margin="0,50,0,0" HorizontalAlignment="Center" FontFamily="Cooper Black" FontSize="24" FontWeight="Bold" />
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  Margin="90" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  Margin="30" >
                 <TextBox   Name="BOX1" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap" TextChanged="BOX1_TextChanged_1" />
                 <TextBox   Name="BOX2" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
                 <TextBox   Name="BOX3" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
@@ -33,7 +33,10 @@
                 <TextBox   Name="BOX8" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
             </StackPanel>
 
-            <Button Click="Button_Click"  Margin="100" Content="تسجيل الدخول" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300"/>
+            <Button Click="Button_Click"  Margin="20" Content="تسجيل الدخول" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300"/>
+
+            <TextBox Name="ResultBlock"  MaxLength="200000" Width="500" Height="100" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" TextWrapping="Wrap"/>
+
 
         </StackPanel>
     </Grid>

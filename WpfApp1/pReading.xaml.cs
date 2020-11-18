@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Net;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -10,6 +13,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Net.Http;
+using System.Net.Http.Formatting;
+using WpfApp1.Api;
+using System.Linq;
 
 namespace WpfApp1
 {
@@ -18,29 +25,89 @@ namespace WpfApp1
     /// </summary>
     public partial class pReading : Page
     {
+        private data customer;
+        private BaseController baseController;
         public pReading()
         {
             InitializeComponent();
+            baseController = new BaseController();
+            customer = App.CurCustomer;
+            lastReading.Text = customer.LastRead.ToString();
+            subNumber.Text = customer.SubNo;
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             pMain page = new pMain();
             App.ParentWindowRef.ParentFrame.Navigate(page);
-            //MainWindow window = new MainWindow();
-            //window.Show();
-            //this.Close();
         }
 
-        private void btnRegisterReading_Click(object sender, RoutedEventArgs e)
+        private void ShowMessageBox_Click(string msgtext , string txt)
         {
-            if (txtCurrentReading.Text == "" || !int.TryParse(txtCurrentReading.Text, out _))
+            MessageBoxButton button = MessageBoxButton.YesNoCancel;
+            MessageBoxResult result = MessageBox.Show(msgtext, txt, button);
+
+            switch (result)
+            {
+                case MessageBoxResult.Yes:
+                    Button_Click(null, null);
+                    break;
+                case MessageBoxResult.No:
+                    pLoginScreen page = new pLoginScreen();
+                    App.ParentWindowRef.ParentFrame.Navigate(page);
+                    break;
+                case MessageBoxResult.Cancel:
+                    pLoginScreen cancel = new pLoginScreen();
+                    App.ParentWindowRef.ParentFrame.Navigate(cancel);
+                    break;
+            }
+        }
+
+        private async void btnRegisterReading_Click(object sender, RoutedEventArgs e)
+        {
+            var currentReadingStr = currentReading.Text;
+            if (currentReadingStr == "" || customer.LastRead >= int.Parse(currentReadingStr) || !int.TryParse(currentReadingStr, out _))
             {
                 MessageBox.Show("القراءة فارغة أو مكتوبة بطريقة خاطئة!!!");
-                txtCurrentReading.Text = "";
+                currentReading.Text = "";
                 return;
             }
-            MessageBox.Show("تم تسجيل القراءة بنجاح", "بتروتريد", MessageBoxButton.OK, MessageBoxImage.Information);
-            Button_Click(null, null);
+            var res = false;
+            data row = App.allData.FirstOrDefault(w => w.SubNo == customer.SubNo);
+            var LastArrange = row.Reading.Last().Arrange;
+            App.allData.Remove(row);
+            Random rnd = new Random();
+            Reading reading = new Reading() { ReadDate = DateTime.Now, CurrentRead = int.Parse(currentReadingStr), Paid= false, Cost= (int.Parse(currentReadingStr) - customer.LastRead), BillNo = rnd.Next(1, 1000), Arrange= LastArrange+1 };
+            customer.Reading.Add(reading);
+            App.allData.Add(customer);
+            var jsonCustomer = JsonConvert.SerializeObject(App.allData);
+            try
+            {
+                using (StreamWriter writer = new StreamWriter("C:/Users/Mai/Documents/test.txt"))
+                {
+                    writer.Write(jsonCustomer);
+                    res = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return;
+            }
+
+            //var res = await baseController.updateFile(customer);
+            if (res)
+            {
+                string msgtext = " هل  ترغب فى خدمات اخرى ؟";
+                string txt = "تمت العملية بنجاح ";
+                ShowMessageBox_Click(msgtext, txt);
+            }
+            else
+            {
+                string msgtext = " هل  ترغب فى خدمات اخرى ؟";
+                string txt = "العملية فشلت ...! ";
+                ShowMessageBox_Click(msgtext, txt);
+            }
         }
+
     }
 }

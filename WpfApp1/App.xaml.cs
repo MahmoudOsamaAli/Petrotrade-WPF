@@ -16,5 +16,9 @@ namespace WpfApp1
         public static MainWindow ParentWindowRef;
 
         public static pMain HomeParent;
+
+        public static List<data> allData;
+
+        public static data CurCustomer;
     }
 }

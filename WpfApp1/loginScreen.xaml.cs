@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -34,5 +35,20 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+
+        //private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    try
+        //    {
+        //        using (var sr = new StreamReader("http://196.218.181.250:2020/test.txt"))
+        //        {
+        //            ResultBlock.Text = await sr.ReadToEndAsync();
+        //        }
+        //    }
+        //    catch (FileNotFoundException ex)
+        //    {
+        //        ResultBlock.Text = ex.Message;
+        //    }
+        //}
     }
 }

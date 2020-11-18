@@ -15,18 +15,21 @@
             <TextBlock Text="شركة الخدمات التجارية البترولية" Margin="0,20,0,0" FontStyle="Italic" HorizontalAlignment="Center" FontFamily="Cooper Black" FontSize="24" FontWeight="Bold" />
 
             <TextBlock Text="ادخل رقم الاشتراك" Margin="0,50,0,0" HorizontalAlignment="Center" FontFamily="Cooper Black" FontSize="24" FontWeight="Bold" />
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  Margin="90" >
-                <TextBox   Name="BOX1" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap" TextChanged="BOX1_TextChanged_1" />
-                <TextBox   Name="BOX2" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX3" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX4" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX5" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX6" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX7" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX8" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  Margin="10" >
+                <TextBox   Name="BOX1" Text="{Binding ElementName=BOX1, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap" TextChanged="BOX1_TextChanged_1" />
+                <TextBox   Name="BOX2" Text="{Binding ElementName=BOX2, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox   Name="BOX3" Text="{Binding ElementName=BOX3, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox   Name="BOX4" Text="{Binding ElementName=BOX4, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox   Name="BOX5" Text="{Binding ElementName=BOX5, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox   Name="BOX6" Text="{Binding ElementName=BOX6, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox   Name="BOX7" Text="{Binding ElementName=BOX7, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox   Name="BOX8" Text="{Binding ElementName=BOX8, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
             </StackPanel>
 
-            <Button Click="Button_Click" Margin="100" Content="تسجيل الدخول" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300"/>
+            <Button Click="Button_Click" Margin="5" Content="تسجيل الدخول" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300"/>
+
+            <!--<TextBox Name="ResultBlock" Text="{Binding ElementName=ResultBlock, Mode=OneWay}" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>-->
+
 
         </StackPanel>
     </Grid>

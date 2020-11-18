@@ -28,7 +28,7 @@
             </Grid.RowDefinitions>
 
             <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Center" Width="100"
-               Source="pack://application:,,,/logo (1).png" Stretch="Uniform" Margin="20,20,20,20"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+               Source="pack://application:,,,/images/logo.png" Stretch="Uniform" Margin="20,20,20,20"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                />
             <Button  Click="Button_Click" MinWidth="150" MinHeight="60"  Content="خروج >>" HorizontalAlignment="Right" VerticalAlignment="Center"  
 Background="{x:Null}" FontSize="20" Foreground="#FF0F0E0E" FontWeight="Bold" BorderBrush="{x:Null}" Grid.Row="0" Grid.Column="3" Margin="0,0,50,0"/>
@@ -46,16 +46,16 @@ Background="{x:Null}" FontSize="20" Foreground="#FF0F0E0E" FontWeight="Bold" Bor
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <TextBlock Text="اسم المشترك :"  FontSize="16" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                    <TextBlock Name="name" Text="مي مسعد إبراهيم" FontSize="16" FontWeight="Bold" Grid.Row="0" Grid.Column="1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <TextBlock Name="name" Text="" FontSize="16" FontWeight="Bold" Grid.Row="0" Grid.Column="1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
                     <TextBlock Text="المحافظه : "  FontSize="16" FontWeight="Bold" Grid.Row="1" Grid.Column="0" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                    <TextBlock Name="city" Text="القاهره" FontSize="16" FontWeight="Bold" Grid.Row="1" Grid.Column="1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <TextBlock Name="city" Text="" FontSize="16" FontWeight="Bold" Grid.Row="1" Grid.Column="1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
                     <TextBlock Text="المنطقه :"  FontSize="16" FontWeight="Bold" Grid.Row="1" Grid.Column="2" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                    <TextBlock Name="area" Text="المعادي" FontSize="16" FontWeight="Bold" Grid.Row="1" Grid.Column="4" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <TextBlock Name="area" Text="" FontSize="16" FontWeight="Bold" Grid.Row="1" Grid.Column="4" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
                     <TextBlock Text="رقم المشترك :"  FontSize="16" FontWeight="Bold" Grid.Row="0" Grid.Column="2" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                    <TextBlock Name="subNumber" Text="0123560145963258" FontSize="16" FontWeight="Bold" Grid.Row="0" Grid.Column="4" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <TextBlock Name="subNumber" Text="" FontSize="16" FontWeight="Bold" Grid.Row="0" Grid.Column="4" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </materialDesign:Card>
         </Grid>

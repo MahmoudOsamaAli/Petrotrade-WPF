@@ -18,12 +18,18 @@ namespace WpfApp1
     /// </summary>
     public partial class pMain : Page
     {
+        private data customer;
         public pMain()
         {
             App.HomeParent = this;
             InitializeComponent();
             pHome c = new pHome();
             this.ParentFrame.Navigate(c);
+            customer = App.CurCustomer;
+            name.Text = customer.Name;
+            city.Text = customer.City;
+            area.Text = customer.Area;
+            subNumber.Text = customer.SubNo;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

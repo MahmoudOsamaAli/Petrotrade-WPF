@@ -17,6 +17,7 @@ using System.Net.Http;
 using System.Net.Http.Formatting;
 using WpfApp1.Api;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace WpfApp1
 {
@@ -26,11 +27,11 @@ namespace WpfApp1
     public partial class pReading : Page
     {
         private data customer;
-        private BaseController baseController;
+        private SaveFile save;
         public pReading()
         {
             InitializeComponent();
-            baseController = new BaseController();
+            save = new SaveFile();
             customer = App.CurCustomer;
             lastReading.Text = customer.LastRead.ToString();
             subNumber.Text = customer.SubNo;
@@ -40,7 +41,11 @@ namespace WpfApp1
             pMain page = new pMain();
             App.ParentWindowRef.ParentFrame.Navigate(page);
         }
-
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^0-9]+");
+            e.Handled = regex.IsMatch(e.Text);
+        }
         private void ShowMessageBox_Click(string msgtext , string txt)
         {
             MessageBoxButton button = MessageBoxButton.YesNoCancel;
@@ -61,7 +66,6 @@ namespace WpfApp1
                     break;
             }
         }
-
         private async void btnRegisterReading_Click(object sender, RoutedEventArgs e)
         {
             var currentReadingStr = currentReading.Text;
@@ -82,11 +86,12 @@ namespace WpfApp1
             var jsonCustomer = JsonConvert.SerializeObject(App.allData);
             try
             {
-                using (StreamWriter writer = new StreamWriter("C:/Users/Mai/Documents/test.txt"))
+                using (StreamWriter writer = new StreamWriter("D:/Work/Petrotrade-WPF_WithAZURE/WpfApp1/common/test.txt"))
                 {
                     writer.Write(jsonCustomer);
                     res = true;
                 }
+              await save.SendFile();
             }
             catch (Exception ex)
             {
@@ -94,7 +99,6 @@ namespace WpfApp1
                 return;
             }
 
-            //var res = await baseController.updateFile(customer);
             if (res)
             {
                 string msgtext = " هل  ترغب فى خدمات اخرى ؟";

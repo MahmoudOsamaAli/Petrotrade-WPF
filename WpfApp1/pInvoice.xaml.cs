@@ -4,28 +4,21 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WpfApp1.Api;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Interaction logic for pInvoice.xaml
-    /// </summary>
+    /// <summary> 
     public partial class pInvoice : Page
     {
         public static data customer = App.CurCustomer;
+        SaveFile save;
         public pInvoice()
         {
             InitializeComponent();
+            save = new SaveFile();
             //CultureInfo ci = new CultureInfo("ar-EG");
             month.Text = DateTime.Now.Month.ToString();
             CreatedDate.Text = DateTime.Now.ToString("dd/MM/yyyy");
@@ -51,7 +44,6 @@ namespace WpfApp1
             if (customer.Reading.Last().Paid.Value)
                 Status.Visibility = Visibility.Visible;
         }
-
         private void ShowMessageBox_Click(string msgtext, string txt)
         {
             MessageBoxButton button = MessageBoxButton.YesNoCancel;
@@ -73,8 +65,7 @@ namespace WpfApp1
                     break;
             }
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             var res = false;
             customer.Reading.Last().Paid = true;
@@ -82,11 +73,12 @@ namespace WpfApp1
             var jsonCustomer = JsonConvert.SerializeObject(App.allData);
             try
             {
-                using (StreamWriter writer = new StreamWriter("C:/Users/Mai/Documents/test.txt"))
+                using (StreamWriter writer = new StreamWriter("D:/Work/Petrotrade-WPF_WithAZURE/WpfApp1/common/test.txt"))
                 {
                     writer.Write(jsonCustomer);
                     res = true;
                 }
+                await save.SendFile();
             }
             catch (Exception ex)
             {
@@ -108,7 +100,6 @@ namespace WpfApp1
             }
 
         }
-
         private void Click_Back(object sender, RoutedEventArgs e)
         {
             pMain back = new pMain();

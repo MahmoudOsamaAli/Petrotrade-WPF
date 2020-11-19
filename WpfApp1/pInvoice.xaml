@@ -111,9 +111,9 @@
                     <TextBlock Text="المبلغ المستحق :"  FontSize="18" FontWeight="Bold" Grid.Row="3" Grid.Column="0" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                     <TextBlock Name="Cost" Text="" FontSize="20" FontWeight="Bold" Grid.Row="3" Grid.Column="1" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
-                    <StackPanel Grid.Row="3" Grid.Column="3" Width="200px" >
+                    <StackPanel Name="Status" Grid.Row="3" Grid.Column="3" Width="200px" Visibility="Hidden">
                         <Image Name="imgDynamic" Source="pack://application:,,,/images/r.png" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                        <Label Name="Status" Content="مدفوع" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20px" Foreground="Green" FontWeight="ExtraBold" Visibility="Visible"/>
+                        <Label Content="مدفوع" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20px" Foreground="Green" FontWeight="ExtraBold"/>
                     </StackPanel>
                     
                 </Grid>

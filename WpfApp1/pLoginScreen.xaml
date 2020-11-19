@@ -23,20 +23,19 @@
 
             <TextBlock Text="ادخل رقم الاشتراك" Margin="0,50,0,0" HorizontalAlignment="Center" FontFamily="Cooper Black" FontSize="24" FontWeight="Bold" />
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  Margin="30" >
-                <TextBox   Name="BOX1" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap" TextChanged="BOX1_TextChanged_1" />
-                <TextBox   Name="BOX2" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX3" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX4" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX5" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX6" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX7" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
-                <TextBox   Name="BOX8" InputMethod.InputScope="Digits" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX1" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap" TextChanged="BOX1_TextChanged_1" />
+                <TextBox  Name="BOX2" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX3" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX4" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX5" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX6" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX7" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
+                <TextBox  Name="BOX8" PreviewTextInput="NumberValidationTextBox" MaxLength="2" Width="30" Height="40" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" MaxLines="1" TextWrapping="Wrap"/>
             </StackPanel>
 
             <Button Click="Button_Click"  Margin="20" Content="تسجيل الدخول" HorizontalAlignment="Stretch" Height="50"  Background="#FF014316" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#FF1C6C68" Width="300"/>
 
-            <TextBox Name="ResultBlock"  MaxLength="200000" Width="500" Height="100" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" TextWrapping="Wrap"/>
-
+            <Label Name="ResultBlock" Margin="4" FontWeight="ExtraBold" Foreground="red" FontSize="18px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontStretch="Medium" />
 
         </StackPanel>
     </Grid>
